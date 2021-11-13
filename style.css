@@ -1,0 +1,79 @@
+/*semantic continers*/
+
+body {
+  margin: 0px;
+}
+
+main {
+  background: lavender;
+  padding: 0px 0px 40px 0px;
+}
+
+/*elements*/
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-family: Garamond;
+  color: rgb(107, 93, 93);
+}
+
+p {
+  font-family: Garamond;
+  font-size: 22px;
+  padding: 0px 150px 0px 150px;
+}
+
+ul, ol {
+  font-family: Garamond;
+  font-size: 22px;
+  padding: 0px 180px 0px 180px
+}
+
+hr {
+  margin: 0px 150px 0px 150px;
+  height: 25px;
+  border: none;
+  background-image: url("images/chicago-bears-logo.png");
+  background-size: 25px; /*I tried making the ruler so that there would be some space in between each iteration between the bear logo but was unable to properly enforce it*/
+}
+
+img {
+  width: 400px;
+  border-radius: 50%;
+}
+
+a {
+  font-size: 18px;
+  font-family: Arial;
+}
+
+a:link {color: #0B162A;}
+a:visited {color: #C83803;}
+a:hover {color: forestgreen;}
+a:active {color: pink;}
+
+/*classes*/
+
+.dark-background {
+  font-family: papyrus;
+  color: #C83803;
+  background-color: #0B162A;
+  margin: -40px 0px -20px 0px; /*I wanted the background to fully extend to the top of the webpage*/
+}
+
+/*The orange and blue colors are the color scheme of the Chicago Bears. I'm a huge fan!*/
+
+.added-padding {
+  padding: 40px 0px 0px 0px; /* this pushed the image down 40 pixels so that it wasn't aligned to the very top of the main container*/
+}
+
+.height {
+  height: 60px /*Added some extra height to the footer container to be a little more visually appealing*/
+}
+
+.center {
+  text-align: center;
+}
